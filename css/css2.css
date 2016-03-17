@@ -1,0 +1,189 @@
+* {margin: 0; padding: 0;}
+
+/*’˚ÃÂ≤ºæ÷¿∏*/
+.container{
+     font-family:Œ¢»Ì—≈∫⁄,∫⁄ÃÂ,sens-serif;
+     font-size:small;
+     position: absolute;
+     background-color:#DDDEDF;
+     width:100%;
+
+}
+h2{ margin:10px 0px;}
+h3{ 
+     color: #7b7b7b;
+     margin:10px 0px;
+}
+
+article,section{
+      margin:20px;
+      padding:20px;
+      box-shadow: 2px 2px 3px #aaaaaa;
+      line-height: 1.5;
+      background-color: white;
+
+}
+
+aside{
+      margin:40px 40px 20px 20px;
+      padding:20px;
+      box-shadow: 2px 2px 3px #aaaaaa;
+      line-height: 1.5;
+      background-color: white;
+
+}
+
+/*µº∫Ω¿∏*/
+nav{              
+       height:60px;      
+       background-color:#323334;
+} 
+nav span img{
+       position:absolute;
+       top:5px;
+       height:40px;
+       padding:5px 30px;         
+}
+
+.nav-ul{
+       list-style:none;
+       position:absolute;
+       top:15px;
+       right:10px;
+       width:100%;
+
+}
+.nav-ul li {
+       float:right;
+       text-decoration: none;
+}
+.nav-ul li a{
+       padding:10px;
+       font-size:90%;
+       text-decoration: none;
+}
+
+.nav-ul li a:visited{color:#fcfcfc;}
+.nav-ul li a:hover{color:#7b7b7b;}
+.nav-ul li a:active{color:red;}
+
+
+/*Œƒ’¬¿∏*/
+article p{
+       font-size:1.15em;
+       line-height: 1.8em;
+       text-indent: 2em;
+       padding:10px 0px;    
+}
+.author,time{
+       color: #8e8e8e;
+       font-size:90%;
+       margin:10px 0px;
+}
+
+
+/*Œƒ’¬¿∏-¡–±Ì*/
+#article-list li{
+      font-size:1.15em;
+      list-style: none;
+      padding:5px 30px;
+}
+article ol {
+      margin: 1em 3em;
+      font-weight: bold;
+} 
+
+/*Œƒ’¬¿∏-±Ì∏Ò*/
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+      padding: 0;
+}
+caption{font-size:1.15em;}
+thead {
+      font-weight: bold;
+      text-align: left;
+      background-color: #333;
+      color: white;
+	
+}
+
+tfoot {
+      background-color: #ccc;
+      font-weight: bold;
+}
+th,td {
+      border: 1px solid #ccc;
+      padding: 5px;
+}
+
+
+/*Õº∆¨¿∏*/
+section figure{
+       width:250px;
+       margin: 10px 3em;
+       padding: 10px;
+       box-sizing: border-box;
+       text-align: center;
+       border:1px solid #9d9d9d;
+}
+section figure figcation{text-align:center;}
+section figure img{
+              height:150px;
+}
+
+
+/*≤‡¿∏*/
+aside h2{
+      font-size:115%;
+      margin:
+      padding-left:20px;
+      border-left:4px solid #ccc;
+}
+
+
+lable>span{
+     width: 35%;
+     text-align: right;
+     display:inline-block;
+     margin:15px 10px 0px 0px;
+
+}
+lable p{
+     font-size: 13px;
+     color: gray;
+     margin:10px 36% ;
+}
+
+input[type='submit']{
+     width: 100%;
+     height: 40px;
+     background: #3355D0;
+     color: #fff;
+     cursor: pointer;
+     border-radius: 8px;
+     font-size:115% ;
+}
+#aside-tex{
+     margin-top: 10px;
+     width: 50%;
+     height: 100px;
+     outline: none;
+     border: 1px solid #b6b6b6;
+}
+#aside-tex:focus{border-color: #55D1FF; }
+
+
+
+/*“≥Ω≈¿∏*/
+footer {  
+    font-size:90%; 
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    color: #fff;
+    background-color: black;
+}
